@@ -13,6 +13,9 @@ dependencies = [
     "uvicorn"
 ]
 
+[project.scripts]
+server = "server.app:app"
+
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
