@@ -1,0 +1,18 @@
+[project]
+name = "openenv-scaler"
+version = "0.1.0"
+description = "OpenEnv Hackathon Submission"
+authors = [
+    { name = "Dhyan" }
+]
+dependencies = [
+    "pydantic",
+    "openai",
+    "openenv-core",
+    "fastapi",
+    "uvicorn"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
